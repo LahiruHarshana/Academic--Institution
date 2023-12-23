@@ -11,8 +11,6 @@ document.getElementById('inquiryForm').addEventListener('submit', function (e) {
         return;
     }
 
-    // You can add additional logic here, such as sending the form data to a server
-
     alert('Inquiry submitted successfully!\n\nName: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
     this.reset();
 });
