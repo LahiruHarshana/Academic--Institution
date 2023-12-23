@@ -1,3 +1,5 @@
+/* Updated Styles for the First Set to Match the Second Set */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
@@ -16,6 +18,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 nav ul li {
