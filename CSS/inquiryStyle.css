@@ -44,7 +44,7 @@ label {
 
 input, textarea {
     width: 100%;
-    padding: 12px; /* Increased padding for better input feel */
+    padding: 12px;
     margin-bottom: 20px;
     box-sizing: border-box;
     border: 1px solid #ddd;
