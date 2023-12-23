@@ -15,7 +15,6 @@ function scrollToSection(sectionId) {
     menu.classList.remove('show');
 }
 
-// JavaScript for changing header background on scroll
 window.addEventListener('scroll', function () {
     var header = document.querySelector('header');
     var scrollPosition = window.scrollY;
