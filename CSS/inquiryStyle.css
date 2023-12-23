@@ -26,6 +26,18 @@ nav ul li {
     margin-right: 20px;
 }
 
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #2980b9;
+}
+
 section {
     padding: 40px;
     box-sizing: border-box;
