@@ -3,12 +3,13 @@ body {
     background-color: #f9f9f9;
     margin: 0;
     padding: 0;
+    color: #333;
 }
 
 header {
-    background-color: #333;
+    background-color: #007bff;
     color: white;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
 }
 
@@ -24,52 +25,42 @@ nav ul li {
     margin-right: 20px;
 }
 
-.inquiry-form-container {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
+section {
+    padding: 40px;
     box-sizing: border-box;
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 form {
-    display: grid;
-    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 label {
     display: block;
+    margin-bottom: 8px;
     font-weight: bold;
-    margin-bottom: 5px;
 }
 
-input,
-textarea {
+input, textarea {
     width: 100%;
     padding: 10px;
+    margin-bottom: 15px;
     box-sizing: border-box;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
 
 button {
+    padding: 10px 15px;
     background-color: #007bff;
     color: white;
-    padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #0056b3;
-}
-
 footer {
-    background-color: #333;
+    background-color: #007bff;
     color: white;
     padding: 15px;
     text-align: center;
