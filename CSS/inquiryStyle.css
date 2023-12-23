@@ -7,10 +7,11 @@ body {
 }
 
 header {
-    background-color: #007bff;
+    background-color: #3498db; /* Updated color */
     color: white;
-    padding: 15px;
+    padding: 20px; /* Increased padding for a modern look */
     text-align: center;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -37,31 +38,36 @@ form {
 
 label {
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 10px; /* Slightly reduced margin */
     font-weight: bold;
 }
 
 input, textarea {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
+    padding: 12px; /* Increased padding for better input feel */
+    margin-bottom: 20px; /* Increased margin for better spacing */
     box-sizing: border-box;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 8px; /* Rounded corners for a modern look */
 }
 
 button {
-    padding: 10px 15px;
-    background-color: #007bff;
+    padding: 15px 20px; /* Increased padding for a more prominent button */
+    background-color: #3498db; /* Match header color */
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px; /* Rounded corners for consistency */
     cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker color on hover */
 }
 
 footer {
-    background-color: #007bff;
+    background-color: #3498db; /* Match header color */
     color: white;
-    padding: 15px;
+    padding: 20px; /* Increased padding for a modern look */
     text-align: center;
 }
