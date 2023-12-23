@@ -9,8 +9,6 @@ function scrollToSection(sectionId) {
     var y = section.getBoundingClientRect().top + window.pageYOffset + yOffset;
 
     window.scrollTo({ top: y, behavior: 'smooth' });
-
-    // Close the menu on small screens after clicking a link
     var menu = document.querySelector('nav ul');
     menu.classList.remove('show');
 }
