@@ -58,7 +58,7 @@ button {
     border: none;
     border-radius: 8px; /* Rounded corners for consistency */
     cursor: pointer;
-    transition: background-color 0.3s ease-in-out; /* Smooth hover effect */
+    transition: background-color 0.3s ease-in-out;
 }
 
 button:hover {
