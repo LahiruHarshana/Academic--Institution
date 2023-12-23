@@ -6,10 +6,11 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #007bff;
     color: white;
     padding: 20px;
     text-align: center;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -22,6 +23,18 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #0056b3;
 }
 
 .programmes-container {
