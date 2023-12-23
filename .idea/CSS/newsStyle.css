@@ -1,4 +1,4 @@
-
+/* newsStyle.css */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f9f9f9;
@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #007bff;
+    background-color: #007bff; /* Updated background color */
     color: white;
     padding: 20px;
     text-align: center;
