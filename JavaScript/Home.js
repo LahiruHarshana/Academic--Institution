@@ -5,7 +5,7 @@ function toggleMenu() {
 
 function scrollToSection(sectionId) {
     var section = document.getElementById(sectionId);
-    var yOffset = -50;  as
+    var yOffset = -50;
     var y = section.getBoundingClientRect().top + window.pageYOffset + yOffset;
 
     window.scrollTo({ top: y, behavior: 'smooth' });
