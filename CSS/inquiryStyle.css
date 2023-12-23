@@ -68,6 +68,6 @@ button:hover {
 footer {
     background-color: #3498db; /* Match header color */
     color: white;
-    padding: 20px; /* Increased padding for a modern look */
+    padding: 20px;
     text-align: center;
 }
