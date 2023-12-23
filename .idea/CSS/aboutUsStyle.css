@@ -1,3 +1,5 @@
+/* aboutUsStyle.css */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
@@ -25,14 +27,23 @@ nav ul li {
 
 section {
     padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #333;
 }
 
 p {
     line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
 }
 
 footer {
