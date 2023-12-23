@@ -48,7 +48,7 @@ input, textarea {
     margin-bottom: 20px; /* Increased margin for better spacing */
     box-sizing: border-box;
     border: 1px solid #ddd;
-    border-radius: 8px; /* Rounded corners for a modern look */
+    border-radius: 8px;
 }
 
 button {
